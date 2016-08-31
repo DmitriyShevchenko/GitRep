@@ -1,0 +1,931 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Это содержимое необходимо поместить в текстовый макет, который находится: Справочники.Новости.Макеты.СтандартныеЗначения_WhatIsNew-->
+<!--Помеченные на удаление новости необходимо оставить, т.к. при загрузке в информационную базу существующие новости (которые устарели и помечены на удаление), также должны быть помечены на удаление.-->
+<feed xmlns="http://www.w3.org/2005/Atom"
+		xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>Что нового в версии</title>
+	<rights>Copyright (c) ООО "1С"</rights>
+	<link>http://v8.1c.ru/</link>
+	<updated>2016-03-23T07:59:29Z</updated>
+	<entry>
+		<title>DirectBank - новое слово в технологии прямого обмена с банками!</title>
+		<subtitle>DirectBank - новое слово в технологии прямого обмена с банками!</subtitle>
+		<link href=""/>
+		<id>b9ca2690-1032-11e5-7d93-0050569f2f4f</id>
+		<updated>2015-06-11T12:09:43Z</updated>
+		<published>2015-06-11T12:09:43Z</published>
+		<summary>В системе "1С: Предприятие 8" имеется возможность обмена по технологии DirectBank  (прямой обмен с банками без использования внешних модулей "Клиент-банка"). Выгрузка платежных поручений и загрузка банковских выписок производится непосредственно из программы. В этом случае не нужно устанавливать и поддерживать дополнительное программное обеспечение и производить загрузки-выгрузки через файл.
+Получите инструкции в Вашем банке и перейдите к настройке из формы расчетного счета по ссылке "Настройка прямого обмена с банком".&lt;br/&gt;&lt;br/&gt;Подробно о технологии DirectBank и список банков, с которыми на данный момент возможна синхронизация, см.:
+&lt;UL&gt;&lt;LI&gt;&lt;a href="http://directbank.1c.ru" title="Переход по ссылке"&gt;directbank.1c.ru&lt;/a&gt;&lt;LI&gt;&lt;a href="http://its.1c.ru/db/metod81#content:5375:hdoc" title="Переход по ссылке"&gt;Инструкция на ИТС	&lt;/a&gt;&lt;/LI&gt;&lt;/UL&gt;</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.РазделУчета.БанкИКасса"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.ПлатежноеПоручение"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.ЖурналДокументов.БанковскиеВыписки"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Выполненные задачи можно посмотреть на рабочем столе</title>
+		<subtitle>Выполненные задачи можно посмотреть на рабочем столе</subtitle>
+		<link href=""/>
+		<id>babb23ae-7bbe-11e5-c691-0050569f2f4f</id>
+		<updated>2015-10-26T08:51:23Z</updated>
+		<published>2015-10-26T08:51:23Z</published>
+		<summary>Задачи по подготовке отчетности, уплате налогов и регулярных платежей, после отметки о выполнении помещаются в список выполненных задач. Посмотреть их можно по ссылке "Выполненные задачи" в верхней части списка задач.
+В этом списке задачу можно отметить как невыполненную.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.ОбщаяФорма.РабочийСтол"
+					formName="РабочийСтол"
+					eventName="ПриОтметкеЗадачиКакВыполненной"
+					priority="1"
+					priorityExpired="2015-11-09T20:59:59Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Отображением итогов в списке банковских выписок можно управлять</title>
+		<subtitle>Отображением итогов в списке банковских выписок можно управлять</subtitle>
+		<link href=""/>
+		<id>c915ea70-7190-11e5-f896-0050569f2f4f</id>
+		<updated>2015-10-13T09:57:20Z</updated>
+		<published>2015-10-13T09:57:20Z</published>
+		<summary>Управление отображением итогов в списке банковских выписок осуществляется по кнопке "Показать/Скрыть итоги" в меню "Еще". Отображение итогов повышает информативность, но требует немного больше времени на открытие формы.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.042.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.042.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.042.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.ЖурналДокументов.БанковскиеВыписки"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2015-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Обмен электронными документами - больше возможностей, меньше рисков</title>
+		<subtitle>Обмен электронными документами - больше возможностей, меньше рисков</subtitle>
+		<link href=""/>
+		<id>c17f66ee-78b9-11e5-bf96-0050569f2f4f</id>
+		<updated>2015-10-22T12:38:13Z</updated>
+		<published>2015-10-22T12:38:13Z</published>
+		<summary>Имеется возможность отправлять документы контрагентам в электронном виде прямо из программы.&lt;br&gt;Это позволяет:&lt;br/&gt;- снизить риски расхождения данных&lt;br&gt;- хранить оригиналы документов в электронном виде&lt;br&gt;- ускорить ввод данных по поступлениям.&lt;br/&gt;&lt;br/&gt;Подробнее об 1C-ЭДО можно прочитать &lt;a href="https://portal.1c.ru/applications/30" title=""&gt;здесь&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="1C:App001" title=""&gt;Подключиться к 1С-ЭДО&lt;/a&gt;</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.042.0051"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.042.0051"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.042.0051"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<actions1C>
+			<action1C id="1C:App001"
+					action="Запуск процедуры с параметрами">
+				<parameter name="Действие"
+						value="Подключить1СЭДО"/>
+			</action1C>
+		</actions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.РеализацияТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии_Подключение1СЭДО"
+					priority="1"
+					priorityExpired="2015-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПокупателю"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии_Подключение1СЭДО"
+					priority="1"
+					priorityExpired="2015-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Сверить данные учета НДС с контрагентами стало очень просто</title>
+		<subtitle>Сверить данные учета НДС с контрагентами стало очень просто</subtitle>
+		<link href=""/>
+		<id>e81f62d2-65b2-11e5-1395-0050569f2f4f</id>
+		<updated>2015-09-28T07:31:23Z</updated>
+		<published>2015-09-28T07:31:23Z</published>
+		<summary>Сверку данных учета НДС с контрагентами можно провести не выходя из программы!&lt;BR&gt;Это позволит избежать риска доначисления НДС, штрафов и требований об уточнении от ФНС. Лучше выявить и исправить ошибки заранее и самостоятельно, чем дождаться, когда их выявит ФНС.&lt;BR&gt;Перейти к &lt;a href="1C:GoTo001" title=""&gt;Сверке данных учета НДС с контрагентами&lt;/a&gt;&lt;BR&gt;Подробнее в &lt;a href="http://buh.ru/articles/documents/42429/" title="Переход по ссылке"&gt;статье "Сверка счетов-фактур: новый уровень автоматизации"&lt;/a&gt;</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<actions1C>
+			<action1C id="1C:GoTo001"
+					action="Переход по навигационной ссылке">
+				<parameter name="Навигационная ссылка"
+						value="e1cib/app/Обработка.СверкаДанныхУчетаНДС.Форма.Форма"/>
+			</action1C>
+		</actions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.ПоступлениеТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии_СверкаНДС"
+					priority="1"
+					priorityExpired="2016-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.РеализацияТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии_СверкаНДС"
+					priority="1"
+					priorityExpired="2016-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Для вывода срока оплаты измененный макет счета необходимо отредактировать</title>
+		<subtitle>Для вывода срока оплаты измененный макет счета необходимо отредактировать</subtitle>
+		<link href=""/>
+		<id>ea00dfd8-5534-11e5-8d9d-0050569f2f4f</id>
+		<updated>2015-09-07T07:49:08Z</updated>
+		<published>2015-09-07T07:49:08Z</published>
+		<summary>В версии 3.0.42 изменился типовой макет печатной формы счета на оплату покупателю. При использовании отредактированного ранее макета новые возможности версии 3.0.42 будут  недоступны. Для полноценного использования новых возможностей необходимо обновить макет. Вы можете отредактировать макет самостоятельно в разделе "Администрирование - Печатные формы, отчеты, обработки - Макеты печатных форм" или обратиться к специалисту обслуживающей организации.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.042.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.042.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.042.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПокупателю"
+					formName="ФормаДокумента"
+					eventName="СкидкиПоСчетуИзмененныйМакет"
+					priority="1"
+					priorityExpired="2016-12-31T20:59:59Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Изменились коды видов алкогольной продукции в отчетности</title>
+		<subtitle>Изменились коды видов алкогольной продукции в отчетности</subtitle>
+		<link href=""/>
+		<id>eba990a2-5d0c-11e5-1a93-0050569f2f4f</id>
+		<updated>2015-09-17T07:23:01Z</updated>
+		<published>2015-09-17T07:23:01Z</published>
+		<summary>Приказ Росалкогольрегулирования от 23.06.2015 N 169 вносит изменения в классификатор видов алкогольной продукции.&lt;br/&gt;В регистре "Сведения об алкогольной продукции" можно для каждой номенклатуры указать два вида продукции:
+В редакции Приказа Росалкогольрегулирования от 06.05.2014 №129
+В редакции Приказа Росалкогольрегулирования от 23.06.2015 №169
+До заполнения отчетности за 3 квартал 2015 года необходимо открыть сведения об алкогольной продукции (доступно из справочника "Номенклатура") и проверить виды алкогольной продукции, установленные для номенклатуры.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.041.5900"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.041.5900"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.041.5900"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Отчеты.РегламентированныйОтчетАлкоПриложение11"
+					formName="ОсновнаяФорма"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Отчеты.РегламентированныйОтчетАлкоПриложение12"
+					formName="ОсновнаяФорма"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Теперь можно отслеживать статус оплаты счета</title>
+		<subtitle>Теперь можно отслеживать статус оплаты счета</subtitle>
+		<link href="http://its.1c.ru/db/updinfo#content:209:1:issogl2_40"/>
+		<id>8540b936-f497-11e4-1385-0050569f2f4f</id>
+		<updated>2015-05-07T09:00:38Z</updated>
+		<published>2015-05-07T09:00:38Z</published>
+		<summary>Теперь можно легко отслеживать статус оплаты счета&lt;br/&gt;&lt;a href="http://its.1c.ru/db/updinfo#content:209:1:issogl2_40" title="Переход по ссылке"&gt;Подробнее&lt;/a&gt;</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПокупателю"
+					formName="ФормаДокумента"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2015-05-21T20:59:59Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПокупателю"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2015-05-21T20:59:59Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Продажи"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Сверка данных учета НДС с контрагентами</title>
+		<subtitle>Сверка данных учета НДС с контрагентами</subtitle>
+		<link href=""/>
+		<id>39a371e2-1f3c-11e5-238d-0050569f2f4f</id>
+		<updated>2015-06-30T15:25:27Z</updated>
+		<published>2015-06-30T15:25:27Z</published>
+		<summary>Начиная с релиза 3.0.40.31 все операции по сверке данных учета НДС с контрагентами теперь можно выполнять &lt;a href="1C:GoToNDSChk" title="Открыть форму отчета"&gt;в одной форме&lt;/a&gt;:
+&lt;UL&gt;&lt;LI&gt;направлять запросы поставщикам на сверку
+&lt;LI&gt;получать от них реестры для сверки и сверять реестры со своими учетными данными
+&lt;LI&gt;отслеживать состояние запросов и актуальность сверки
+&lt;LI&gt;отправлять реестры для сверки покупателям&lt;/LI&gt;&lt;/UL&gt;Рекомендуем проводить сверку оперативно, не дожидаясь наступления отчетной кампании.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<actions1C>
+			<action1C id=""
+					action="Переход по навигационной ссылке"/>
+		</actions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.ОбщаяФорма.РегламентированнаяОтчетность"
+					formName="ОбщаяФорма"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2015-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Операции"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Отчеты"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Бухгалтерская отчетность и финансовый анализ в досье контрагентов</title>
+		<subtitle>Бухгалтерская отчетность и финансовый анализ в досье контрагентов</subtitle>
+		<link href=""/>
+		<id>66b14b3e-1f3f-11e5-238d-0050569f2f4f</id>
+		<updated>2015-06-30T15:48:14Z</updated>
+		<published>2015-06-30T15:48:14Z</published>
+		<summary>Начиная с версии 3.0.40.31 в сервисе &lt;a href="1C:GoTo001" title=""&gt;"Досье контрагента"&lt;/a&gt; доступна бухгалтерская отчетность контрагентов по данным базы Росстата за 2012 - 2013 годы и средства для анализа отчетности:
+&lt;UL&gt;&lt;LI&gt;оценка кредитоспособности
+&lt;LI&gt;финансовый анализ
+&lt;LI&gt;анализ отчетности&lt;/LI&gt;&lt;/UL&gt;Напоминаем, что сервис "Досье контрагента" предназначен для оценки надежности контрагентов на основе открытых данных ЕГРЮЛ и Росстата.</summary>
+		<hidden>false</hidden>
+		<onlyLink>true</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<actions1C>
+			<action1C id=""
+					action="Переход по навигационной ссылке"/>
+		</actions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.РазделУчета.Покупки"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Продажи"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Справочник.Контрагенты"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2015-12-31T20:59:59Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Справочник.Контрагенты"
+					formName="ФормаЭлемента"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2015-12-31T20:59:59Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Введен повышающий коэффициент транспортного налога для автомобилей стоимостью более 3 млн.</title>
+		<subtitle>Описание нового в версии</subtitle>
+		<link href="http://its.1c.ru/updinfo/accounting/3.0.38#zakl4"/>
+		<id>ad6ad5a4-a7c1-11e4-8597-0050569f2f4f</id>
+		<updated>2015-01-29T14:18:30Z</updated>
+		<published>2015-01-29T14:18:30Z</published>
+		<summary>&lt;h1&gt;Транспортный налог&lt;/h1&gt;С 01.01.2015 в отношении легковых автомобилей средней стоимостью более 3-х миллионов рублей суммы авансовых платежей по транспортному налогу исчисляются с учетом повышающего коэффициента (федеральный закон от 04.11.2014 № 347-ФЗ).&lt;br/&gt;&lt;br/&gt;&lt;h2&gt;&lt;a href="1C:GoTo001" title="Переход по ссылке"&gt;Закрытие месяца&lt;/a&gt;&lt;/h2&gt;Регламентная операция "Расчет транспортного налога" с 2015 года рассчитывает суммы авансового платежа с учетом повышающего коэффициента для транспортных средств, по которым этот коэффициент установлен в элементе справочника "Регистрация транспортных средств". &lt;br/&gt;Подробнее:
+&lt;a href="http://its.1c.ru/updinfo/accounting/3.0.38#zakl4" title="Переход по ссылке"&gt;http://its.1c.ru/updinfo/accounting/3.0.38#zakl4&lt;/a&gt;</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<actions1C>
+			<action1C id=""
+					action="Переход по навигационной ссылке"/>
+		</actions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Обработка.ЗакрытиеМесяца"
+					formName="Форма"
+					eventName="ПриОткрытии"
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Операции"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.ОСиНМА"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РегистрацияТранспортныхСредств"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Новый порядок расчета земельного налога для ИП с 2015 года</title>
+		<subtitle>Описание нового в версии</subtitle>
+		<link href=""/>
+		<id>b1af5f96-a7c0-11e4-8597-0050569f2f4f</id>
+		<updated>2015-01-29T14:11:25Z</updated>
+		<published>2015-01-29T14:11:25Z</published>
+		<summary>&lt;h1&gt;Земельный налог&lt;/h1&gt;С 2015 года индивидуальные предприниматели освобождаются от обязанности самостоятельно исчислять земельный налог. Сумма налога, подлежащая уплате в бюджет, рассчитывается налоговыми органами и подлежит уплате в бюджет на основании полученного налогового уведомления (федеральный закон от 04.11.2014 N 347-ФЗ).&lt;br/&gt;&lt;br/&gt;&lt;h2&gt;&lt;a href="1C:GoTo001" title="Переход по ссылке"&gt;Закрытие месяца&lt;/a&gt;&lt;/h2&gt;Регламентная операция "Расчет земельного налога" с 2015 года для индивидуальных предпринимателей исключена из закрытия месяца.
+Подробнее:
+&lt;a href="http://its.1c.ru/updinfo/accounting/3.0.38#zakl2" title="Переход по ссылке"&gt;http://its.1c.ru/updinfo/accounting/3.0.38#zakl2&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;h2&gt;Календарь бухгалтера&lt;/h2&gt;Задачи по уплате земельного налога и предоставлению декларации по этому налогу с 2015 года в календаре бухгалтера не создаются.
+Подробнее:
+&lt;a href="http://its.1c.ru/updinfo/accounting/3.0.38#zakl3" title="Переход по ссылке"&gt;http://its.1c.ru/updinfo/accounting/3.0.38#zakl3&lt;/a&gt;</summary>
+		<hidden>false</hidden>
+		<onlyLink>true</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<actions1C>
+			<action1C id=""
+					action="Переход по навигационной ссылке"/>
+		</actions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Обработка.ЗакрытиеМесяца"
+					formName="Форма"
+					eventName="ПриОткрытии"
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Операции"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Программа поможет оценить риск налоговой проверки</title>
+		<subtitle>Описание нового в версии</subtitle>
+		<link href="http://its.1c.ru/updinfo/accounting/3.0.38#zakl1"/>
+		<id>8687f590-a7bf-11e4-8597-0050569f2f4f</id>
+		<updated>2015-01-29T14:03:05Z</updated>
+		<published>2015-01-29T14:03:05Z</published>
+		<summary>Отчет &lt;a href="1C:GoTo001" title="Открыть форму отчета"&gt;"Оценка риска налоговой проверки"&lt;/a&gt; предназначен для самостоятельной проверки данных учета на соответствие общедоступным критериям, которыми руководствуется ФНС при планировании выездных проверок (&lt;a href="1C:ShowPict001" title="Как отрыть отчёт"&gt;раздел Отчеты - Анализ учета - Оценка риска налоговой проверки&lt;/a&gt;).&lt;br/&gt;&lt;br/&gt;Проверка на соответствие критериям проводится по данным учета и регламентированной отчетности в информационной базе. Если в информационной базе отсутствуют регламентированные отчеты, которые нужны для расчета критерия, их можно создать, перейдя по гиперссылке.&lt;br/&gt;&lt;br/&gt;Отчет можно сформировать на конец любого квартала с начала года.&lt;br/&gt;&lt;br/&gt;В отчете отражается 12 критериев, приведенных в «Концепции системы планирования выездных налоговых проверок» (приложение N 2 к Приказу ФНС от 30.05.2007 N ММ-3-06/333@).&lt;br/&gt;&lt;br/&gt;Имеется возможность расшифровать данные информационной базы, которые были использованы для расчета критериев.&lt;br/&gt;&lt;br/&gt;Сформированный отчет можно распечатать.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<actions1C>
+			<action1C id=""
+					action="Переход по навигационной ссылке"/>
+			<action1C id=""
+					action="Показать картинку"/>
+		</actions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.ОбщаяФорма.РегламентированнаяОтчетность"
+					formName=""
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2015-03-31T20:59:59Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БР.РазделУчета.Отчеты"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Информация о получении оригинала хранится во входящих документах</title>
+		<subtitle>Информация о получении оригинала хранится во входящих документах</subtitle>
+		<link href=""/>
+		<id>e315fc12-0e85-11e5-7d93-0050569f2f4f</id>
+		<updated>2015-06-09T08:59:55Z</updated>
+		<published>2015-06-09T08:59:55Z</published>
+		<summary>Акты и накладные, полученные в оригинале, можно отметить, установив флаг &lt;b&gt;Оригинал получен&lt;/b&gt;. &lt;br/&gt;Отметку можно установить как в форме документа, так и в форме списка.&lt;br/&gt; &lt;br/&gt;&lt;!-- Где искать кнопку новости --&gt;</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.ПоступлениеТоваровУслуг"
+					formName="ФормаДокументаТовары"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2015-09-29T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.ПоступлениеТоваровУслуг"
+					formName="ФормаДокументаУслуги"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2015-09-29T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.ПоступлениеТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2015-09-29T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Покупки"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Возможен просмотр полной переписки с контрагентом</title>
+		<subtitle>Возможен просмотр полной переписки с контрагентом</subtitle>
+		<link href=""/>
+		<id>2237502e-2b02-11e5-419a-0050569f2f4f</id>
+		<updated>2015-07-15T14:59:50Z</updated>
+		<published>2015-07-15T14:59:50Z</published>
+		<summary>Появилась возможность сохранять все исходящие письма на сервере электронной почты. Чтобы начать использовать новую возможность необходимо перейти в &lt;a href="1C:GoTo001" title="Открыть форму настроек"&gt;Персональные настройки пользователя&lt;/a&gt;, установить флажок "Отправлять копии исходящих писем по адресу" и ввести адрес электронной почты, на который будут отправляться копии исходящих писем.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<actions1C>
+			<action1C id=""
+					action="Переход по навигационной ссылке"/>
+		</actions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.ОбщаяФорма.ОтправкаСообщения"
+					formName="Форма"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2015-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Администрирование"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Программа"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Статус счета для контроля оплаты покупателями</title>
+		<subtitle>Статус счета для контроля оплаты покупателями</subtitle>
+		<link href="http://its.1c.ru/db/hoosn#content:415:hdoc"/>
+		<id>0edfe380-4a36-11e5-b79c-0050569f2f4f</id>
+		<updated>2015-08-24T07:59:38Z</updated>
+		<published>2015-08-24T07:59:38Z</published>
+		<summary>Если документ оплаты (например, "Поступление на расчетный счет")  ввести на основании счета или в  документе оплаты привязать оплату покупателя к счету - статус счета изменится автоматически при проведении документа оплаты.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПокупателю"
+					formName="ФормаДокумента"
+					eventName="ИзменениеСтатусаСчетаПокупателюВручную"
+					priority="1"
+					priorityExpired="2015-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПокупателю"
+					formName="ФормаСписка"
+					eventName="ИзменениеСтатусаСчетаПокупателюВручную"
+					priority="1"
+					priorityExpired="2015-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Статус счета для контроля оплаты поставщикам</title>
+		<subtitle>Статус счета для контроля оплаты поставщикам</subtitle>
+		<link href=""/>
+		<id>241462ea-4a3f-11e5-b79c-0050569f2f4f</id>
+		<updated>2015-08-24T09:04:38Z</updated>
+		<published>2015-08-24T09:04:38Z</published>
+		<summary>Если документ оплаты (например, "Списание с расчетного счета")  ввести на основании счета или в  документе оплаты привязать оплату поставщику к счету - статус счета изменится автоматически при проведении документа оплаты.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПоставщика"
+					formName="ФормаДокумента"
+					eventName="ИзменениеСтатусаСчетаПоставщикаВручную"
+					priority="1"
+					priorityExpired="2015-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПоставщика"
+					formName="ФормаСписка"
+					eventName="ИзменениеСтатусаСчетаПоставщикаВручную"
+					priority="1"
+					priorityExpired="2015-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Отправляйте копии исходящих писем на свою почту, чтобы видеть всю переписку с контрагентом</title>
+		<subtitle>Хранение отправленных писем</subtitle>
+		<link href=""/>
+		<id>0cdbae12-602d-458c-b0b4-ca92c52fcaf9</id>
+		<updated>2015-10-09T15:22:10Z</updated>
+		<published>2015-10-09T15:22:10Z</published>
+		<summary>Появилась возможность сохранять все исходящие письма на сервере электронной почты. Чтобы начать использовать новую возможность необходимо перейти в &lt;a href="1C:GoTo001" title="Открыть форму настроек"&gt;Персональные настройки пользователя&lt;/a&gt;, установить флажок "Отправлять копии исходящих писем по адресу" и ввести адрес электронной почты, на который будут отправляться копии исходящих писем.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.ОбщаяФорма.ОтправкаСообщения"
+					formName="Форма"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2015-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Администрирование"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Программа"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Строки таблицы документа можно копировать в другие документы</title>
+		<subtitle>Строки таблицы документа можно копировать в другие документы</subtitle>
+		<link href=""/>
+		<id>2623b39a-a306-11e5-cb9a-0050569f2f4f</id>
+		<updated>2015-12-15T08:30:52Z</updated>
+		<published>2015-12-15T08:30:52Z</published>
+		<summary>Появилась возможность копирования и вставки табличных строк в документах. Сделать это можно с помощью кнопок «Скопировать строки» и «Вставить строки» в командной панели табличных частей.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.043.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.043.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.043.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.ВозвратТоваровОтПокупателя"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-02-28T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.ВозвратТоваровПоставщику"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-02-28T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.ИнвентаризацияТоваровНаСкладе"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-02-28T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.ОприходованиеТоваров"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-02-28T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.ПеремещениеТоваров"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-02-28T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.ПоступлениеДопРасходов"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-02-28T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.ПоступлениеТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-02-28T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.РеализацияТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-02-28T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.СписаниеТоваров"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-02-28T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПокупателю"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-02-28T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПоставщика"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-02-28T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.ТребованиеНакладная"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-02-28T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Подтвердить поступление алкогольной продукции в ЕГАИС можно непосредственно из 1С:Бухгалтерии</title>
+		<subtitle>Подтвердить поступление алкогольной продукции в ЕГАИС можно непосредственно из 1С:Бухгалтерии</subtitle>
+		<link href=""/>
+		<id>d9c71150-afcf-11e5-2e97-0050569f2f4f</id>
+		<updated>2015-12-31T15:04:57Z</updated>
+		<published>2015-12-31T15:04:57Z</published>
+		<summary>В 1С:Бухгалтерии поддерживается обмен данными с ЕГАИС по операциям поступления алкогольной продукции. Подробнее &lt;a href="http://its.1c.ru/db/egais#content:3:buh30" title="Переход по ссылке"&gt;на ИТС&lt;/a&gt;</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.ПоступлениеТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2016-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Покупки"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+</feed>

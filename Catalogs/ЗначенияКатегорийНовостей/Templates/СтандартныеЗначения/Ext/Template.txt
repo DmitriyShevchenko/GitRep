@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Выгрузка ЗначенияКатегорийНовостей, 23.03.2016 10:59:29, Europe/Moscow-->
+<!--Это содержимое необходимо поместить в текстовый макет, который находится: Справочники.ЗначенияКатегорийНовостей.Макеты.СтандартныеЗначения-->
+<!--Помеченные на удаление объекты необходимо оставить, т.к. при загрузке в информационную базу существующие объекты (которые устарели и помечены на удаление), также должны быть помечены на удаление.-->
+<DefaultData xmlns:ncc="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>a5d3e71e-a6df-11e4-6188-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">1d39c280-a6de-11e4-6188-0050569f2f4f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>Section_Admin</ncc:Code>
+		<ncc:Description>Администрирование</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>73e31ff0-a6de-11e4-6188-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">1d39c280-a6de-11e4-6188-0050569f2f4f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>Section_BanksAndCash</ncc:Code>
+		<ncc:Description>Банк и касса</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>7eef50a9-6e18-11e3-ac43-000e0ce2fa0f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">b26b3f28-a231-4a88-80d9-80df38625642</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>BLR</ncc:Code>
+		<ncc:Description>Белоруссия</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>5c507800-a6df-11e4-6188-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">1d39c280-a6de-11e4-6188-0050569f2f4f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>Section_Wage</ncc:Code>
+		<ncc:Description>Зарплата и кадры</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>dfb84c4e-1879-11e4-b29b-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">bbb1bd86-37e8-11e3-b639-000e0ce2fa0f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>updatesChangePlans</ncc:Code>
+		<ncc:Description>Изменение запланированного срока выпуска версии</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>0ea1cdb2-23f4-11e2-9ea7-20cf30c96139</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">b26b3f28-a231-4a88-80d9-80df38625642</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>KAZ</ncc:Code>
+		<ncc:Description>Казахстан</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>4dbd4bc9-3ae6-11e3-9990-000e0ce2fa0f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">b26b3f28-a231-4a88-80d9-80df38625642</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>LVA</ncc:Code>
+		<ncc:Description>Латвия</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>4dbd4bca-3ae6-11e3-9990-000e0ce2fa0f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">b26b3f28-a231-4a88-80d9-80df38625642</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>LTU</ncc:Code>
+		<ncc:Description>Литва</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>ce08fddc-a6df-11e4-6188-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">1d39c280-a6de-11e4-6188-0050569f2f4f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>Section_About</ncc:Code>
+		<ncc:Description>О программе</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>7bc68e0e-a6df-11e4-6188-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">1d39c280-a6de-11e4-6188-0050569f2f4f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>Section_Operations</ncc:Code>
+		<ncc:Description>Операции</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>294c0258-a6df-11e4-6188-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">1d39c280-a6de-11e4-6188-0050569f2f4f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>Section_Assets</ncc:Code>
+		<ncc:Description>ОС и НМА</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>d38fad86-1879-11e4-b29b-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">bbb1bd86-37e8-11e3-b639-000e0ce2fa0f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>updatesRecall</ncc:Code>
+		<ncc:Description>Отзыв версии</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>e39508fa-4f76-11e4-4797-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">bbb1bd86-37e8-11e3-b639-000e0ce2fa0f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>updatesRecallTest</ncc:Code>
+		<ncc:Description>Отмена публикации тестовой версии</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>c5058e2c-a6de-11e4-6188-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">1d39c280-a6de-11e4-6188-0050569f2f4f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>Section_Purchasing</ncc:Code>
+		<ncc:Description>Покупки</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>d3c92fcc-a6de-11e4-6188-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">1d39c280-a6de-11e4-6188-0050569f2f4f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>Section_Selling</ncc:Code>
+		<ncc:Description>Продажи</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>1f3fd35c-a6df-11e4-6188-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">1d39c280-a6de-11e4-6188-0050569f2f4f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>Section_Manufacture</ncc:Code>
+		<ncc:Description>Производство</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>db7d9896-1879-11e4-b29b-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">bbb1bd86-37e8-11e3-b639-000e0ce2fa0f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>updatesOther</ncc:Code>
+		<ncc:Description>Произвольная новость</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>e7439b12-1879-11e4-b29b-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">bbb1bd86-37e8-11e3-b639-000e0ce2fa0f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>updatesNewVersion</ncc:Code>
+		<ncc:Description>Публикация новой версии</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>e37d7d40-1879-11e4-b29b-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">bbb1bd86-37e8-11e3-b639-000e0ce2fa0f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>updatesPlans</ncc:Code>
+		<ncc:Description>Публикация плана версии</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>ebae0a84-1879-11e4-b29b-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">bbb1bd86-37e8-11e3-b639-000e0ce2fa0f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>updatesTestVersion</ncc:Code>
+		<ncc:Description>Публикация тестовой версии</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>efd409ce-1879-11e4-b29b-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">bbb1bd86-37e8-11e3-b639-000e0ce2fa0f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>updatesNewAddons</ncc:Code>
+		<ncc:Description>Публикация форм отчётности</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>62c98fc8-23f3-11e2-9ea7-20cf30c96139</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">b26b3f28-a231-4a88-80d9-80df38625642</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>RUS</ncc:Code>
+		<ncc:Description>Россия</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>d8ea5cec-a6de-11e4-6188-0050569f2f4f</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">1d39c280-a6de-11e4-6188-0050569f2f4f</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>Section_Warehouse</ncc:Code>
+		<ncc:Description>Склад</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>62c98fc9-23f3-11e2-9ea7-20cf30c96139</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">b26b3f28-a231-4a88-80d9-80df38625642</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>UKR</ncc:Code>
+		<ncc:Description>Украина</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+	<ncc:CatalogObject.ЗначенияКатегорийНовостей xsi:type="ncc:CatalogObject.ЗначенияКатегорийНовостей">
+		<ncc:Ref>74894a9f-299e-11e2-8fe6-20cf30c96139</ncc:Ref>
+		<ncc:DeletionMark>false</ncc:DeletionMark>
+		<ncc:Owner xsi:type="ncc:ChartOfCharacteristicTypesRef.КатегорииНовостей">b26b3f28-a231-4a88-80d9-80df38625642</ncc:Owner>
+		<ncc:Parent>00000000-0000-0000-0000-000000000000</ncc:Parent>
+		<ncc:Code>EST</ncc:Code>
+		<ncc:Description>Эстония</ncc:Description>
+	</ncc:CatalogObject.ЗначенияКатегорийНовостей>
+</DefaultData>

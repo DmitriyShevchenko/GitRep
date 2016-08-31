@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Это содержимое необходимо поместить в текстовый макет, который находится: Справочники.Новости.Макеты.СтандартныеЗначения_RapidLearning-->
+<!--Помеченные на удаление новости необходимо оставить, т.к. при загрузке в информационную базу существующие новости (которые устарели и помечены на удаление), также должны быть помечены на удаление.-->
+<feed xmlns="http://www.w3.org/2005/Atom"
+		xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>Быстрое освоение</title>
+	<rights>Copyright (c) ООО "1С"</rights>
+	<link>http://v8.1c.ru/</link>
+	<updated>2016-03-23T07:59:29Z</updated>
+	<entry>
+		<title>С чего начать работу</title>
+		<subtitle>Видеоурок</subtitle>
+		<link href=""/>
+		<id>6a401384-4bc7-11e5-328d-0050569f2f4f</id>
+		<updated>2015-08-26T07:52:38Z</updated>
+		<published>2015-08-26T07:52:38Z</published>
+		<summary>Посмотрев видеоурок &lt;a href="http://its.1c.ru/clip8/?clip=buh8/requisites" title="Переход по ссылке"&gt;"Заполнение реквизитов"&lt;/a&gt; Вы узнаете как быстро сделать первый шаг - заполнить сведения о своем бизнесе.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.ОбщаяФорма.РабочийСтол"
+					formName="РабочийСтол"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Как отразить поступление товаров от поставщика</title>
+		<subtitle>Видеоурок</subtitle>
+		<link href="http://its.1c.ru/clip8/?clip=buh8/goods_supply"/>
+		<id>1b45fab2-1e6f-11e5-238d-0050569f2f4f</id>
+		<updated>2015-06-29T14:57:10Z</updated>
+		<published>2015-06-29T14:57:10Z</published>
+		<summary>Фирма 1С подготовила новый видеоурок&lt;br/&gt; &lt;a href="http://its.1c.ru/clip8/?clip=buh8/goods_supply" title="Переход по ссылке"&gt;Как отразить поступление товаров от поставщика&lt;/a&gt;.
+&lt;br/&gt;Эту и другие новости можно посмотреть по кнопке '&lt;b&gt;Новости&lt;/b&gt;' в меню '&lt;b&gt;Еще&lt;/b&gt;'&lt;br/&gt;Ознакомиться со всеми новостями по разделу можно по ссылке '&lt;b&gt;Новости&lt;/b&gt;' подраздела '&lt;b&gt;Информация&lt;/b&gt;' меню функций раздела</summary>
+		<hidden>false</hidden>
+		<onlyLink>true</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.ПоступлениеТоваровУслуг"
+					formName="ФормаДокумента"
+					eventName="ПриОткрытии"
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.ПоступлениеТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Покупки"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Как подготовить счет на оплату покупателю</title>
+		<subtitle>Видеоурок</subtitle>
+		<link href="http://its.1c.ru/clip8/?clip=buh8/bill"/>
+		<id>2c063b42-1e6e-11e5-238d-0050569f2f4f</id>
+		<updated>2015-06-29T14:50:28Z</updated>
+		<published>2015-06-29T14:50:28Z</published>
+		<summary>Фирма 1С подготовила новый видеоурок&lt;br/&gt; &lt;a href="http://its.1c.ru/clip8/?clip=buh8/bill" title="Переход по ссылке"&gt;Как подготовить счет на оплату покупателю&lt;/a&gt;.
+&lt;br/&gt;Эту и другие новости можно посмотреть по кнопке '&lt;b&gt;Новости&lt;/b&gt;' в меню '&lt;b&gt;Еще&lt;/b&gt;'&lt;br/&gt;Ознакомиться со всеми новостями по разделу можно по ссылке '&lt;b&gt;Новости&lt;/b&gt;' подраздела '&lt;b&gt;Информация&lt;/b&gt;' меню функций раздела</summary>
+		<hidden>false</hidden>
+		<onlyLink>true</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПокупателю"
+					formName="ФормаДокумента"
+					eventName="ПриОткрытии"
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПокупателю"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Продажи"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Как отразить реализацию товаров</title>
+		<subtitle>Видеоурок</subtitle>
+		<link href="http://its.1c.ru/clip8/?clip=buh8/sales_with_choice"/>
+		<id>df644608-1e6d-11e5-238d-0050569f2f4f</id>
+		<updated>2015-06-29T14:48:20Z</updated>
+		<published>2015-06-29T14:48:20Z</published>
+		<summary>Фирма 1С подготовила новый видеоурок&lt;br/&gt; &lt;a href="http://its.1c.ru/clip8/?clip=buh8/sales_with_choice" title="Переход по ссылке"&gt;Как отразить реализацию товаров	&lt;/a&gt;.
+&lt;br/&gt;Эту и другие новости можно посмотреть по кнопке '&lt;b&gt;Новости&lt;/b&gt;' в меню '&lt;b&gt;Еще&lt;/b&gt;'&lt;br/&gt;Ознакомиться со всеми новостями по разделу можно по ссылке '&lt;b&gt;Новости&lt;/b&gt;' подраздела '&lt;b&gt;Информация&lt;/b&gt;' меню функций раздела</summary>
+		<hidden>false</hidden>
+		<onlyLink>true</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.РеализацияТоваровУслуг"
+					formName="ФормаДокумента"
+					eventName="ПриОткрытии"
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.РеализацияТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Продажи"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Как ввести расходный кассовый ордер</title>
+		<subtitle>Видеоурок</subtitle>
+		<link href="http://its.1c.ru/clip8/?clip=buh8/cache_expense"/>
+		<id>b8e88c1c-a7be-11e4-8597-0050569f2f4f</id>
+		<updated>2015-06-29T13:57:22Z</updated>
+		<published>2015-06-29T13:57:22Z</published>
+		<summary>Фирма 1С подготовила новый видеоурок&lt;br/&gt; &lt;a href="http://its.1c.ru/clip8/?clip=buh8/cache_expense" title="Переход по ссылке"&gt;Как ввести расходный кассовый ордер&lt;/a&gt;.
+&lt;br/&gt;Эту и другие новости можно посмотреть по кнопке '&lt;b&gt;Новости&lt;/b&gt;' в меню '&lt;b&gt;Еще&lt;/b&gt;'&lt;br/&gt;Ознакомиться со всеми новостями по разделу можно по ссылке '&lt;b&gt;Новости&lt;/b&gt;' подраздела '&lt;b&gt;Информация&lt;/b&gt;' меню функций раздела</summary>
+		<hidden>false</hidden>
+		<onlyLink>true</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.РасходныйКассовыйОрдер"
+					formName="ФормаДокумента"
+					eventName="ПриОткрытии"
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.РасходныйКассовыйОрдер"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.БанкИКасса"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Как ввести приходный кассовый ордер</title>
+		<subtitle>Видеоурок</subtitle>
+		<link href="http://its.1c.ru/clip8/?clip=buh8/cache_receipt"/>
+		<id>67e6f63c-a7be-11e4-8597-0050569f2f4f</id>
+		<updated>2015-06-29T13:55:07Z</updated>
+		<published>2015-06-29T13:55:07Z</published>
+		<summary>Фирма 1С подготовила новый видеоурок&lt;br/&gt; &lt;a href="http://its.1c.ru/clip8/?clip=buh8/cache_receipt" title="Переход по ссылке"&gt;Как ввести приходный кассовый ордер&lt;/a&gt;.
+&lt;br/&gt;Эту и другие новости можно посмотреть по кнопке '&lt;b&gt;Новости&lt;/b&gt;' в меню '&lt;b&gt;Еще&lt;/b&gt;'&lt;br/&gt;Ознакомиться со всеми новостями по разделу можно по ссылке '&lt;b&gt;Новости&lt;/b&gt;' подраздела '&lt;b&gt;Информация&lt;/b&gt;' меню функций раздела</summary>
+		<hidden>false</hidden>
+		<onlyLink>true</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.ПриходныйКассовыйОрдер"
+					formName="ФормаДокумента"
+					eventName="ПриОткрытии"
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.ПриходныйКассовыйОрдер"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.БанкИКасса"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Как загрузить выписку из клиент-банка</title>
+		<subtitle>Видеоурок</subtitle>
+		<link href="http://its.1c.ru/clip8/?clip=buh8/cb_load_from"/>
+		<id>3f3c1cbc-a7be-11e4-8597-0050569f2f4f</id>
+		<updated>2015-06-29T13:53:56Z</updated>
+		<published>2015-06-29T13:53:56Z</published>
+		<summary>Фирма 1С подготовила новый видеоурок&lt;br/&gt; &lt;a href="http://its.1c.ru/clip8/?clip=buh8/cb_load_from" title="Переход по ссылке"&gt;Как загрузить выписку из клиент-банка&lt;/a&gt;.
+&lt;br/&gt;Эту и другие новости можно посмотреть по кнопке '&lt;b&gt;Новости&lt;/b&gt;' в меню '&lt;b&gt;Еще&lt;/b&gt;'&lt;br/&gt;Ознакомиться со всеми новостями по разделу можно по ссылке '&lt;b&gt;Новости&lt;/b&gt;' подраздела '&lt;b&gt;Информация&lt;/b&gt;' меню функций раздела</summary>
+		<hidden>false</hidden>
+		<onlyLink>true</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.ЖурналДокументов.БанковскиеВыписки"
+					formName="ФормаСписка"
+					eventName=""
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.БанкИКасса"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Как подготовить платёжное поручение</title>
+		<subtitle>Видеоурок</subtitle>
+		<link href="http://its.1c.ru/clip8/?clip=buh8/cb_payment_order"/>
+		<id>a17a76cc-a7bd-11e4-8597-0050569f2f4f</id>
+		<updated>2015-06-29T13:49:39Z</updated>
+		<published>2015-06-29T13:49:39Z</published>
+		<summary>Фирма 1С подготовила новый видеоурок&lt;br/&gt; &lt;a href="http://its.1c.ru/clip8/?clip=buh8/cb_payment_order" title="Переход по ссылке"&gt;Как подготовить платёжное поручение&lt;/a&gt;.
+&lt;br/&gt;Эту и другие новости можно посмотреть по кнопке '&lt;b&gt;Новости&lt;/b&gt;' в меню '&lt;b&gt;Еще&lt;/b&gt;'&lt;br/&gt;Ознакомиться со всеми новостями по разделу можно по ссылке '&lt;b&gt;Новости&lt;/b&gt;' подраздела '&lt;b&gt;Информация&lt;/b&gt;' меню функций раздела</summary>
+		<hidden>false</hidden>
+		<onlyLink>true</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<actions1C>
+			<action1C id=""
+					action="Показать картинку"/>
+		</actions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.ПлатежноеПоручение"
+					formName="ФормаДокумента"
+					eventName="ПриОткрытии"
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="true"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.ПлатежноеПоручение"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="true"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.БанкИКасса"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Как отразить выдачу наличных</title>
+		<subtitle>Как отразить выдачу наличных</subtitle>
+		<link href="http://fserver.1c.ru/its/files//1432900852b56eff54140c13f1179fb2ec882de481/video/clip8/buh8/cache_expense.mp4"/>
+		<id>3b4fb72c-0532-11e5-1385-0050569f2f4f</id>
+		<updated>2015-05-28T12:08:22Z</updated>
+		<published>2015-05-28T12:08:22Z</published>
+		<summary>Мы подготовили для Вас новый &lt;a href="http://fserver.1c.ru/its/files//1432900852b56eff54140c13f1179fb2ec882de481/video/clip8/buh8/cache_expense.mp4" title="Переход по ссылке"&gt;видеоурок&lt;/a&gt;, в котором вы узнаете как создать приходный кассовый ордер.
+&lt;br/&gt;Эту и другие новости можно посмотреть по кнопке '&lt;b&gt;Новости&lt;/b&gt;' в меню '&lt;b&gt;Еще&lt;/b&gt;'&lt;br/&gt;Ознакомиться со всеми новостями по разделу можно по ссылке '&lt;b&gt;Новости&lt;/b&gt;' подраздела '&lt;b&gt;Информация&lt;/b&gt;' меню функций раздела</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.РКО"
+					formName="ФормаДокумента"
+					eventName="ПриОткрытии"
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.РКО"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2099-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Раздел.БанкИКасса"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Как отразить выдачу наличных</title>
+		<subtitle>Как отразить выдачу наличных</subtitle>
+		<link href="http://fserver.1c.ru/its/files//14329008528ae126a9e85b8c1f4f2f9fe54bd67723/video/clip8/buh8/cache_receipt.mp4"/>
+		<id>c1d05e0c-f496-11e4-1385-0050569f2f4f</id>
+		<updated>2015-05-07T08:55:10Z</updated>
+		<published>2015-05-07T08:55:10Z</published>
+		<summary>Мы подготовили для Вас новый &lt;a href="http://fserver.1c.ru/its/files//14329008528ae126a9e85b8c1f4f2f9fe54bd67723/video/clip8/buh8/cache_receipt.mp4" title="Переход по ссылке"&gt;видеоурок&lt;/a&gt;, в котором вы узнаете как создать приходный кассовый ордер.
+&lt;br/&gt;Эту и другие новости можно посмотреть по кнопке '&lt;b&gt;Новости&lt;/b&gt;' в меню '&lt;b&gt;Еще&lt;/b&gt;'&lt;br/&gt;Ознакомиться со всеми новостями по разделу можно по ссылке '&lt;b&gt;Новости&lt;/b&gt;' подраздела '&lt;b&gt;Информация&lt;/b&gt;' меню функций раздела</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C/>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.ПКО"
+					formName="ФормаДокумента"
+					eventName="ПриОткрытии"
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.ПКО"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2099-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Раздел.БанкИКасса"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Изменение реквизитов в списках</title>
+		<subtitle>Изменение реквизитов в списках</subtitle>
+		<link href=""/>
+		<id>fe46abb4-be8c-11e5-d49b-0050569f2f4f</id>
+		<updated>2016-01-19T09:14:09Z</updated>
+		<published>2016-01-19T09:14:09Z</published>
+		<summary>Посмотрев &lt;a href="http://www.youtube.com/watch?v=VIOBi08VqTM" title="Переход по ссылке"&gt;видеоролик&lt;/a&gt; Вы узнаете как изменить значение определенного реквизита у группы объектов (документов, элементов справочника и т.д.).</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.ПоступлениеТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.РеализацияТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПокупателю"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.ЖурналДокументов.БанковскиеВыписки"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Администрирование"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Программа"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Добавление, удаление реквизитов в формах</title>
+		<subtitle>Добавление, удаление реквизитов в формах</subtitle>
+		<link href=""/>
+		<id>755c4d22-be8c-11e5-d49b-0050569f2f4f</id>
+		<updated>2016-01-19T09:10:19Z</updated>
+		<published>2016-01-19T09:10:19Z</published>
+		<summary>Из &lt;a href="http://www.youtube.com/watch?v=_X-0vuj6v5Q" title="Переход по ссылке"&gt;видеоролика&lt;/a&gt; Вы узнаете как настроить вид формы для максимально удобной работы - убрать ненужные реквизиты или добавить нужные, которые по умолчанию не вынесены на форму.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.РазделУчета.Администрирование"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Программа"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Добавление, удаление, перемещение кнопок в формах</title>
+		<subtitle>Добавление, удаление, перемещение кнопок в формах</subtitle>
+		<link href=""/>
+		<id>879f22a8-be8b-11e5-d49b-0050569f2f4f</id>
+		<updated>2016-01-19T09:03:40Z</updated>
+		<published>2016-01-19T09:03:40Z</published>
+		<summary>Из &lt;a href="http://www.youtube.com/watch?v=eXhbTUzref8" title="Переход по ссылке"&gt;видеоролика&lt;/a&gt; Вы узнаете как настроить вид формы для максимально удобной работы, например, убрать ненужные кнопки, изменить расположение кнопок, разместив вначале самые востребованные.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.РазделУчета.Администрирование"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Программа"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Добавление и удаление команд в разделах</title>
+		<subtitle>Добавление и удаление команд в разделах</subtitle>
+		<link href=""/>
+		<id>0e349150-be8b-11e5-d49b-0050569f2f4f</id>
+		<updated>2016-01-19T09:00:17Z</updated>
+		<published>2016-01-19T09:00:17Z</published>
+		<summary>Из &lt;a href="http://www.youtube.com/watch?v=8s7KmqbnJbk" title="Переход по ссылке"&gt;видеоролика&lt;/a&gt; Вы узнаете как настроить меню функций каждого раздела с учетом реальных потребностей каждого пользователя - убрать все лишние команды и оставить необходимые для работы.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.РазделУчета.Администрирование"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Программа"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Печать пакета документов</title>
+		<subtitle>Печать пакета документов</subtitle>
+		<link href=""/>
+		<id>901d0c98-be8a-11e5-d49b-0050569f2f4f</id>
+		<updated>2016-01-19T08:56:46Z</updated>
+		<published>2016-01-19T08:56:46Z</published>
+		<summary>Посмотрев &lt;a href="http://www.youtube.com/watch?v=HEimS2ugVmg" title="Переход по ссылке"&gt;видеоролик&lt;/a&gt; Вы узнаете как с минимальными усилиями распечатать комплекты документов по нескольким сделкам.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.РеализацияТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Администрирование"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Программа"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Группировка, выделение строк цветом</title>
+		<subtitle>Группировка, выделение строк цветом</subtitle>
+		<link href=""/>
+		<id>ee048148-be89-11e5-d49b-0050569f2f4f</id>
+		<updated>2016-01-19T08:52:13Z</updated>
+		<published>2016-01-19T08:52:13Z</published>
+		<summary>Посмотрев &lt;a href="http://www.youtube.com/watch?v=8RQZcpVZaKk" title="Переход по ссылке"&gt;видеоролик&lt;/a&gt; Вы откроете для себя новые возможности удобной работы со списками.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.ПоступлениеТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.РеализацияТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПокупателю"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.ЖурналДокументов.БанковскиеВыписки"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Администрирование"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Программа"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Удаление, проведение нескольких документов</title>
+		<subtitle>Удаление, проведение нескольких документов</subtitle>
+		<link href=""/>
+		<id>6c2a7e66-be89-11e5-d49b-0050569f2f4f</id>
+		<updated>2016-01-19T08:48:35Z</updated>
+		<published>2016-01-19T08:48:35Z</published>
+		<summary>Из &lt;a href="http://www.youtube.com/watch?v=PKT6Xx0gf40" title="Переход по ссылке"&gt;видеоролика&lt;/a&gt; Вы узнаете как быстро пометить на удаление, провести или отменить проведение нескольких документов.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.ПоступлениеТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.РеализацияТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПокупателю"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.ЖурналДокументов.БанковскиеВыписки"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Администрирование"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Программа"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Настройка панели разделов</title>
+		<subtitle>Настройка панели разделов</subtitle>
+		<link href=""/>
+		<id>b6375de0-be88-11e5-d49b-0050569f2f4f</id>
+		<updated>2016-01-19T08:43:30Z</updated>
+		<published>2016-01-19T08:43:30Z</published>
+		<summary>Из &lt;a href="http://www.youtube.com/watch?v=0okpVSn3IkE" title="Переход по ссылке"&gt;видеоролика&lt;/a&gt; Вы узнаете как настроить панель разделов с учетом реальных потребностей каждого пользователя - убрать все лишнее и оставить все необходимое для работы.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.РазделУчета.Администрирование"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Программа"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+	<entry>
+		<title>Поиск, отбор, сортировка списков</title>
+		<subtitle>Поиск, отбор, сортировка списков</subtitle>
+		<link href=""/>
+		<id>1f44f4f6-bdf7-11e5-c48b-0050569f2f4f</id>
+		<updated>2016-01-18T15:21:20Z</updated>
+		<published>2016-01-18T15:21:20Z</published>
+		<summary>В &lt;a href="http://www.youtube.com/watch?v=OcJro5xiglk" title="Переход по ссылке"&gt;видеоролике&lt;/a&gt; рассматриваются основные приемы работы со списками: поиск нужных документов, отбор по значению одного или нескольких полей, сортировка.</summary>
+		<hidden>false</hidden>
+		<onlyLink>false</onlyLink>
+		<autoMarkAsRead>false</autoMarkAsRead>
+		<categories1C/>
+		<categoriesVersions1C>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="Accounting"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingBase"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="ProductVersion"
+					productCode="AccountingCorp"
+					versionFrom="03.00.041.0000"
+					versionTo="99.99.999.9999"/>
+			<categoryVersions1C categoryCode="PlatformVersion"
+					productCode="Platform"
+					versionFrom="08.03.000.0000"
+					versionTo="99.99.999.9999"/>
+		</categoriesVersions1C>
+		<metadataLinks1C>
+			<metadataLink1C metadataName="БП.Документ.ПоступлениеТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.РеализацияТоваровУслуг"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.Документ.СчетНаОплатуПокупателю"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.ЖурналДокументов.БанковскиеВыписки"
+					formName="ФормаСписка"
+					eventName="ПриОткрытии"
+					priority="1"
+					priorityExpired="2020-12-30T21:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Администрирование"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+			<metadataLink1C metadataName="БП.РазделУчета.Программа"
+					formName=""
+					eventName=""
+					priority="0"
+					priorityExpired="0001-01-01T00:00:00Z"
+					openWithinOwnerForm="false"
+					isPermanent="false"/>
+		</metadataLinks1C>
+	</entry>
+</feed>

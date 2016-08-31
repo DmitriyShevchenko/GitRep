@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ПеренестиВСправочник" id="1">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.ПеренестиОКОФиАмортизационнуюГруппу</CommandName>
+				<ExtendedTooltip name="ПеренестиВСправочникExtendedTooltip" id="27"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ОбластьПодбора" id="2">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Область подбора</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ОбластьПодбораExtendedTooltip" id="28"/>
+			<ChildItems>
+				<UsualGroup name="ОКОФ" id="3">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОКОФ</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ОКОФExtendedTooltip" id="29"/>
+					<ChildItems>
+						<Table name="ИерархияОКОФ" id="5">
+							<SelectionMode>SingleRow</SelectionMode>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ИерархияОКОФ</DataPath>
+							<RowPictureDataPath>ИерархияОКОФ.DefaultPicture</RowPictureDataPath>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<ContextMenu name="ИерархияОКОФКонтекстноеМеню" id="6"/>
+							<AutoCommandBar name="ИерархияОКОФКоманднаяПанель" id="7">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ИерархияОКОФExtendedTooltip" id="30"/>
+							<SearchStringAddition name="ИерархияОКОФСтрокаПоиска" id="50">
+								<AdditionSource>
+									<Item>ИерархияОКОФ</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИерархияОКОФСтрокаПоискаКонтекстноеМеню" id="51"/>
+								<ExtendedTooltip name="ИерархияОКОФСтрокаПоискаРасширеннаяПодсказка" id="52"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ИерархияОКОФСостояниеПросмотра" id="53">
+								<AdditionSource>
+									<Item>ИерархияОКОФ</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИерархияОКОФСостояниеПросмотраКонтекстноеМеню" id="54"/>
+								<ExtendedTooltip name="ИерархияОКОФСостояниеПросмотраРасширеннаяПодсказка" id="55"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ИерархияОКОФУправлениеПоиском" id="56">
+								<AdditionSource>
+									<Item>ИерархияОКОФ</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ИерархияОКОФУправлениеПоискомКонтекстноеМеню" id="57"/>
+								<ExtendedTooltip name="ИерархияОКОФУправлениеПоискомРасширеннаяПодсказка" id="58"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">ИерархияОКОФВыбор</Event>
+								<Event name="OnActivateRow">ИерархияОКОФПриАктивизацииСтроки</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="ИерархияОКОФНаименование" id="8">
+									<DataPath>ИерархияОКОФ.Description</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Наименование</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ИерархияОКОФНаименованиеКонтекстноеМеню" id="9"/>
+									<ExtendedTooltip name="ИерархияОКОФНаименованиеExtendedTooltip" id="31"/>
+								</LabelField>
+								<LabelField name="ИерархияОКОФКод" id="37">
+									<DataPath>ИерархияОКОФ.Code</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Код</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ИерархияОКОФКодКонтекстноеМеню" id="38"/>
+									<ExtendedTooltip name="ИерархияОКОФКодРасширеннаяПодсказка" id="39"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="АмортизационныеГруппыТаблицаГруппа" id="4">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Амортизационные группы - таблица</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="АмортизационныеГруппыТаблицаГруппаExtendedTooltip" id="32"/>
+					<ChildItems>
+						<Table name="АмортизационныеГруппы" id="40">
+							<ReadOnly>true</ReadOnly>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>АмортизационныеГруппы</DataPath>
+							<RowPictureDataPath>АмортизационныеГруппы.DefaultPicture</RowPictureDataPath>
+							<CommandSet>
+								<ExcludedCommand>ListSettings</ExcludedCommand>
+								<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+								<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+								<ExcludedCommand>Refresh</ExcludedCommand>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>OutputList</ExcludedCommand>
+								<ExcludedCommand>Choose</ExcludedCommand>
+								<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+							</CommandSet>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<ContextMenu name="АмортизационныеГруппыКонтекстноеМеню" id="41"/>
+							<AutoCommandBar name="АмортизационныеГруппыКоманднаяПанель" id="42">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="АмортизационныеГруппыРасширеннаяПодсказка" id="43"/>
+							<SearchStringAddition name="АмортизационныеГруппыСтрокаПоиска" id="59">
+								<AdditionSource>
+									<Item>АмортизационныеГруппы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АмортизационныеГруппыСтрокаПоискаКонтекстноеМеню" id="60"/>
+								<ExtendedTooltip name="АмортизационныеГруппыСтрокаПоискаРасширеннаяПодсказка" id="61"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="АмортизационныеГруппыСостояниеПросмотра" id="62">
+								<AdditionSource>
+									<Item>АмортизационныеГруппы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АмортизационныеГруппыСостояниеПросмотраКонтекстноеМеню" id="63"/>
+								<ExtendedTooltip name="АмортизационныеГруппыСостояниеПросмотраРасширеннаяПодсказка" id="64"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="АмортизационныеГруппыУправлениеПоиском" id="65">
+								<AdditionSource>
+									<Item>АмортизационныеГруппы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="АмортизационныеГруппыУправлениеПоискомКонтекстноеМеню" id="66"/>
+								<ExtendedTooltip name="АмортизационныеГруппыУправлениеПоискомРасширеннаяПодсказка" id="67"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">АмортизационныеГруппыВыбор</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="АмортизационныеГруппыАмортизационнаяГруппа" id="44">
+									<DataPath>АмортизационныеГруппы.АмортизационнаяГруппа</DataPath>
+									<ContextMenu name="АмортизационныеГруппыАмортизационнаяГруппаКонтекстноеМеню" id="45"/>
+									<ExtendedTooltip name="АмортизационныеГруппыАмортизационнаяГруппаРасширеннаяПодсказка" id="46"/>
+								</LabelField>
+								<LabelField name="АмортизационныеГруппыКомментарий" id="47">
+									<DataPath>АмортизационныеГруппы.Комментарий</DataPath>
+									<ContextMenu name="АмортизационныеГруппыКомментарийКонтекстноеМеню" id="48"/>
+									<ExtendedTooltip name="АмортизационныеГруппыКомментарийРасширеннаяПодсказка" id="49"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ИерархияОКОФ" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Иерархия ОКОФ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>ИерархияОКОФ.Ref</Field>
+				<Field>ИерархияОКОФ.IsFolder</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.ОбщероссийскийКлассификаторОсновныхФондов</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="АмортизационныеГруппы" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Амортизационные группы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ЕСТЬNULL(АмортизационныеГруппыОКОФ.АмортизационнаяГруппа, АмортизационныеГруппы.Ссылка) КАК АмортизационнаяГруппа,
+	ЕСТЬNULL(АмортизационныеГруппыОКОФ.Примечание, "") КАК Комментарий
+ИЗ
+	Перечисление.АмортизационныеГруппы КАК АмортизационныеГруппы
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ОбщероссийскийКлассификаторОсновныхФондов КАК ОбщероссийскийКлассификаторОсновныхФондов
+			ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.АмортизационныеГруппыОКОФ КАК АмортизационныеГруппыОКОФ
+			ПО ОбщероссийскийКлассификаторОсновныхФондов.Ссылка = АмортизационныеГруппыОКОФ.ОКОФ
+				И (ОбщероссийскийКлассификаторОсновныхФондов.Ссылка = &amp;ОКОФ)
+		ПО (ОбщероссийскийКлассификаторОсновныхФондов.Ссылка = &amp;ОКОФ)
+ГДЕ
+	ОбщероссийскийКлассификаторОсновныхФондов.ЭтоГруппа = ЛОЖЬ</QueryText>
+				<AutoSaveUserSettings>false</AutoSaveUserSettings>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>АмортизационнаяГруппа.Порядок</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПеренестиОКОФиАмортизационнуюГруппу" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенести ОКОФ и амортизационную группу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенести ОКОФи амортизационную группу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПеренестиОКОФиАмортизационнуюГруппу</Action>
+		</Command>
+	</Commands>
+</Form>

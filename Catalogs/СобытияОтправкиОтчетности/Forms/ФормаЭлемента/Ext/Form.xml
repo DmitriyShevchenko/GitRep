@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Width>64</Width>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="34"/>
+		</InputField>
+		<InputField name="ДатаПолучения" id="3">
+			<DataPath>Объект.ДатаПолучения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаПолученияКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="ДатаПолученияРасширеннаяПодсказка" id="35"/>
+		</InputField>
+		<InputField name="Отправка" id="5">
+			<DataPath>Объект.Отправка</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<OpenButton>true</OpenButton>
+			<ContextMenu name="ОтправкаКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="ОтправкаРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<UsualGroup name="ГруппаСтатус" id="33">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус отправки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа статус</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаСтатусРасширеннаяПодсказка" id="37"/>
+			<ChildItems>
+				<InputField name="ИсходныйСтатус" id="27">
+					<DataPath>Объект.ИсходныйСтатус</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Исходный</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ИсходныйСтатусКонтекстноеМеню" id="28"/>
+					<ExtendedTooltip name="ИсходныйСтатусРасширеннаяПодсказка" id="38"/>
+				</InputField>
+				<InputField name="Статус" id="7">
+					<DataPath>Объект.Статус</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Аудированный</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СтатусКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="39"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаАудит" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус аудита</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа аудит</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Horizontal</Group>
+			<ExtendedTooltip name="ГруппаАудитРасширеннаяПодсказка" id="40"/>
+			<ChildItems>
+				<CheckBoxField name="ТребуетАудита" id="24">
+					<DataPath>Объект.ТребуетАудита</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТребуетАудитаКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="ТребуетАудитаРасширеннаяПодсказка" id="41"/>
+					<Events>
+						<Event name="OnChange">ТребуетАудитаПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="Проаудировано" id="9">
+					<DataPath>Объект.АудитПроведен</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПроаудированоКонтекстноеМеню" id="10"/>
+					<ExtendedTooltip name="ПроаудированоРасширеннаяПодсказка" id="42"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПричиныОтказа" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Причины отказа (при отрицательном результате)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа причины отказа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаПричиныОтказаРасширеннаяПодсказка" id="43"/>
+			<ChildItems>
+				<Table name="ПричиныОтказа" id="13">
+					<Representation>List</Representation>
+					<Width>43</Width>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.ПричиныОтказа</DataPath>
+					<SearchStringLocation>None</SearchStringLocation>
+					<ViewStatusLocation>None</ViewStatusLocation>
+					<SearchControlLocation>None</SearchControlLocation>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ПричиныОтказаКонтекстноеМеню" id="14"/>
+					<AutoCommandBar name="ПричиныОтказаКоманднаяПанель" id="15"/>
+					<ExtendedTooltip name="ПричиныОтказаРасширеннаяПодсказка" id="44"/>
+					<SearchStringAddition name="ПричиныОтказаСтрокаПоиска" id="45">
+						<AdditionSource>
+							<Item>ПричиныОтказа</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ПричиныОтказаСтрокаПоискаКонтекстноеМеню" id="46"/>
+						<ExtendedTooltip name="ПричиныОтказаСтрокаПоискаРасширеннаяПодсказка" id="47"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ПричиныОтказаСостояниеПросмотра" id="48">
+						<AdditionSource>
+							<Item>ПричиныОтказа</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ПричиныОтказаСостояниеПросмотраКонтекстноеМеню" id="49"/>
+						<ExtendedTooltip name="ПричиныОтказаСостояниеПросмотраРасширеннаяПодсказка" id="50"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ПричиныОтказаУправлениеПоиском" id="51">
+						<AdditionSource>
+							<Item>ПричиныОтказа</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ПричиныОтказаУправлениеПоискомКонтекстноеМеню" id="52"/>
+						<ExtendedTooltip name="ПричиныОтказаУправлениеПоискомРасширеннаяПодсказка" id="53"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="ПричиныОтказаНомерСтроки" id="16">
+							<DataPath>Объект.ПричиныОтказа.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПричиныОтказаНомерСтрокиКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ПричиныОтказаНомерСтрокиРасширеннаяПодсказка" id="54"/>
+						</LabelField>
+						<CheckBoxField name="ПричиныОтказаНеПоказывать" id="31">
+							<DataPath>Объект.ПричиныОтказа.НеПоказывать</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Не показывать абоненту</v8:content>
+								</v8:item>
+							</ToolTip>
+							<EditMode>Directly</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПричиныОтказаНеПоказыватьКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="ПричиныОтказаНеПоказыватьРасширеннаяПодсказка" id="55"/>
+						</CheckBoxField>
+						<InputField name="ПричиныОтказаИсходнаяПричина" id="29">
+							<DataPath>Объект.ПричиныОтказа.ИсходнаяПричина</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПричиныОтказаИсходнаяПричинаКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="ПричиныОтказаИсходнаяПричинаРасширеннаяПодсказка" id="56"/>
+						</InputField>
+						<InputField name="ПричиныОтказаПричина" id="18">
+							<DataPath>Объект.ПричиныОтказа.Причина</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПричиныОтказаПричинаКонтекстноеМеню" id="19"/>
+							<ExtendedTooltip name="ПричиныОтказаПричинаРасширеннаяПодсказка" id="57"/>
+						</InputField>
+						<InputField name="ПричиныОтказаПояснение" id="20">
+							<DataPath>Объект.ПричиныОтказа.ПояснениеАудитора</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Пояснение аудитора</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПричиныОтказаПояснениеКонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="ПричиныОтказаПояснениеРасширеннаяПодсказка" id="58"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСлужебныйКомментарий" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Служебный комментарий</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаСлужебныйКомментарийРасширеннаяПодсказка" id="59"/>
+			<ChildItems>
+				<InputField name="Комментарий" id="11">
+					<DataPath>Объект.Комментарий</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Служебный комментарий</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>None</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<MultiLine>true</MultiLine>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="60"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.СобытияОтправкиОтчетности</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ПричиныОтказа</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.ПричиныОтказа.НеПоказывать</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#C0C0C0</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+</Form>
